@@ -1,95 +1,36 @@
------------------------------------------------------------------------07-08-23---------------------------------------------------------------------
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> Web page creating tables</title>
-        <style >
-        body {          
-              background-image:url('https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg');
-             backgroud-repeat:no repeat;
-        } 
-        </style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Tamplate</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-   <h1>creating table by using table tag </h1>
-    <table border="5px"  cellpadding="10px"; cellspacing="10px" style="border-radius:10px; border-color:red; text-align: center;width:fit-content;
-    width: 50%;">
-    <caption> student table</caption>
-        <tr>
-            <th> student_id</th>
-            <th> student_name</th>
-            <th>phone_no</th>
-            <th colspan ="2">student_details</th>
-            
-        </tr>
-        <tr>
-            <td> 101</td>
-            <td>ayesha</td>
-            <td rowspan="5">9347578252</td>
-            <td>90076238869</td>
-            <td> ananthapur</td>          
-         </tr>
-        <tr>
-            <td> 102</td>
-            <td>sai eswar</td>
-            <td>90076238869</td>
-            <td>eastgodavri</td>
-        </tr>
-        <tr>
-            <td> 103</td>
-            <td>jyothi</td>
-            <td>07656234969</td>
-            <td>anathapur</td>
-        </tr>
-        <tr>
-            <td> 104</td>
-            <td>rajesh</td>      
-            <td>89572868869</td>
-            <td>jonnagiri</td>
-         </tr>
-         <tr>
-            <td> 105</td>
-            <td>salma</td>
-            <td>876236548869</td>
-            <td>anathapur</td>
-        </tr>
-    </table>
---><br>
-<a href="#final">go to click button </a>
-<h1>Hyper  Link atributes in target atributes  </h1>
-<a href="https://www.britannica.com/biography/C-V-Raman" target="_blank" alt="cv raman">About CV Raman</a><br><br><br>
-<a href="https://www.britannica.com/biography/C-V-Raman" target="_self" alt="cv raman">About CV Raman</a><br><br><br>
-<a href="https://www.britannica.com/biography/C-V-Raman" target="_parent" alt="cv raman">About CV Raman</a><br><br><br>
-<a href="https://www.britannica.com/biography/C-V-Raman" target="_top" alt="cv raman">About CV Raman</a><br>
-
-<a href="https://www.britannica.com/biography/C-V-Raman">
-    <img src="https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg"
-    alt="error" style="float:right;width:200px;height:200px;"><br><br><br><br><br>
-    </a>
-    
-    <a href="https://www.britannica.com/biography/C-V-Raman">
-        <img src="https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg"
-        alt="error" style="float:left;width:200px;height:200px;">
-        </a>
-
-    
-    <h2> button as link </h2>
-    <p> click on the button to see website </p>
-    <button id="final" onclick=" document.location='https://www.britannica.com/biography/C-V-Raman'" title ="Go to CV Raman inventions"> Invention of CV Raman</button>
-    <br><br><br><br><br>
-    <hr>
-
-    <img src="https://www.adorama.com/alc/wp-content/uploads/2021/05/bird-wings-flying-feature.gif"  alt="cv raman"> </a><br><br><br>
-
-
-    <img src="https://www.animatedimages.org/data/media/466/animated-thank-you-image-0041.gif" alt="GIF">
-
-  
-    <picture>
-        <source media="(min-width: 650px)" srcset="img_food.jpg">
-        <source media="(min-width: 465px)" srcset="img_car.jpg">
-        <img src="img_girl.jpg">
-      </picture>
-
+    <div class="container">
+        <div class="header">
+            <div class="Fancy" >
+                <h1>Fancy</h1></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Portfolio</li>
+                <li>Team</li>
+                <li>Contact</li>
+            </ul>
+                <div class="getstarted">
+                <li><h1><span style="border: solid 1px;border-radius:5px;">
+                    Get Started</span></h1></li> </div>  
+        </div>
+        <div class="main">
+            <h1> Get started with Might Bootstrap 5</h1>
+            <pre> Create Stunnig Websites in Easier and effective way! No matter  you're building a 
+                business presentation Website or a complex Web application our design blocks
+                can easily be adapted for your needs.</pre>
+          <a href="https://www.hostinger.in/tutorials/what-is-bootstrap/">  <button type="button" name="read More" style="color: aqua ;background-color: aliceblue";>Read More</button></a>   
+        </div>
+    </div>
 
 </body>
+</html>
